@@ -32,13 +32,16 @@ use('HospitalDB')
 
 db.doctor.findOne()
 
-db.doctor.updateMany(
-    {name:"Dr. Sakura Haruno"},
-    {$set:
-        { 
-            salary: 500000,
-            specialization : "Senior_Healer ",
-            hospital :"Hidden Leaf village research center"
-        }
-    }
+// db.doctor.updateMany(
+//     {name:"Dr. Sakura Haruno"},
+//     {$set:
+//         { 
+//             salary: 500000,
+//             specialization : "Senior_Healer ",
+//             hospital :"Hidden Leaf village research center"
+//         }
+//     }
+// )
+db.doctor.deleteMany(
+    {name:"Dr. Nani"}
 )
