@@ -3,6 +3,10 @@ const mongoose = require('mongoose');
 const Doctor = require('./model/doctors.model.js');
 const app = express();
 const port = 3000;
+const connectDb = require('./config/db.js');
+const dotenv = require('dotenv');
+dotenv.config();                    
+
 
 
 app.use(express.json())
