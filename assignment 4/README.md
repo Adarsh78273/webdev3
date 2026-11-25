@@ -1,7 +1,0 @@
-![Screenshot 1](screenshort/1.png)
-![Screenshot 2](screenshort/2.png)
-![Screenshot 3](screenshort/3.png)
-![Screenshot 4](screenshort/4.png)
-![Screenshot 5](screenshort/5.png)
-![Screenshot 6](screenshort/6.png)
-![Screenshot 7](screenshort/7.png)
